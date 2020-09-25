@@ -66,7 +66,7 @@ public class TestAutomationFirstProject {
 			 Thread.sleep(2000);
 			 System.out.println(" ");
 			 
-	//4.Test check box
+	//4.Test check box 
 		 
 		 	int i=0;
 			while(i<=1)
