@@ -256,7 +256,7 @@ public class TestAutomationFirstProject {
 			Thread.sleep(5000);
 			driver.navigate().back();
 			System.out.println(" ");
-		//12.Home button
+		//12..Home button
 			
 			WebElement Home=driver.findElement(By.xpath("/html/body/header/div/a/button"));
 			System.out.println("Home button is selected ?"+Home.isEnabled());
