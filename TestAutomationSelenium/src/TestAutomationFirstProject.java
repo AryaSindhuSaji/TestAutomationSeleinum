@@ -111,7 +111,6 @@ public class TestAutomationFirstProject {
 			driver.close();
 			driver.switchTo().window(handleList.get(0));
 			System.out.println("Open Window is enabled?"+window.isEnabled());
-		 
 		
 		//6.Switch tab test
 			
@@ -214,8 +213,7 @@ public class TestAutomationFirstProject {
 			System.out.println("testbox displayed after click on show?"+Hd.isDisplayed());
 			Thread.sleep(1000);
 			System.out.println(" ");	
-			JavascriptExecutor js1 = (JavascriptExecutor) driver;
-			js1.executeScript("window.scrollBy(0,500)");
+			js.executeScript("window.scrollBy(0,500)");
 			
 	  //10.Mouse hover
 			
@@ -244,8 +242,8 @@ public class TestAutomationFirstProject {
 			j++;
 			Thread.sleep(2000);
 			}
-			JavascriptExecutor js2 = (JavascriptExecutor) driver;
-			js2.executeScript("window.scrollBy(0,700)");
+			
+			js.executeScript("window.scrollBy(0,700)");
 			
 			System.out.println(" "); 	
 		//11.Blink text 
@@ -285,8 +283,8 @@ public class TestAutomationFirstProject {
 			System.out.println(" ");
 			
 		//16.iFrame
-			JavascriptExecutor js3 = (JavascriptExecutor) driver;
-			js3.executeScript("window.scrollBy(0,1000)"); 
+		
+			js.executeScript("window.scrollBy(0,1000)"); 
 			WebElement IF=driver.findElement(By.xpath("//*[@id=\'courses-iframe\']" ));
 			IF.click();
 			System.out.println("iframe is Displayed?"+IF.isDisplayed());
