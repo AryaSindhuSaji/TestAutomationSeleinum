@@ -75,7 +75,7 @@ public class AutomationFrameworkLevel2 {
 	  Thread.sleep(2000);
 	  driver.findElement(By.xpath("//*[@id=\'dashboard-toolbar\']/div[2]/div/button[2]")).click();
 	  Thread.sleep(2000);
-	  
+
 	   }
    @AfterTest
   public void BrowserClose() throws InterruptedException {
