@@ -16,7 +16,6 @@ public class TestAutomationFirstProject {
 
 	public static void main(String[] args) throws IOException, Exception{
 		// TODO Auto-generated method stub
-		
 		System.setProperty("webdriver.chrome.driver","C:\\Drivers\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
